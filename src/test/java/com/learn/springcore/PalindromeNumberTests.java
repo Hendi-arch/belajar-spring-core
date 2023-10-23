@@ -3,7 +3,7 @@ package com.learn.springcore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class PalindromeNumberTests {
+class PalindromeNumberTests {
    /**
     * Palindrome
     * An integer is a palindrome when it reads the same forward and backward.

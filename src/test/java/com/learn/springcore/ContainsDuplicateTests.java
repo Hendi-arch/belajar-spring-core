@@ -6,7 +6,7 @@ import java.util.Set;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ContainsDuplicateTests {
+class ContainsDuplicateTests {
     /**
      * Given an integer array nums, return true if any value appears at least twice
      * in the array, and return false if every element is distinct.

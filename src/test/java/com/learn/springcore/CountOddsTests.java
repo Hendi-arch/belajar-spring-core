@@ -3,7 +3,7 @@ package com.learn.springcore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CountOddsTests {
+class CountOddsTests {
     /**
      * Given two non-negative integers {@code low} and {@code high}.
      * 
