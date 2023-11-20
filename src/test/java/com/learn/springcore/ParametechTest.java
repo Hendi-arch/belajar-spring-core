@@ -33,25 +33,17 @@ class ParametechTest {
     /// Tampilkan bilangan prima dari 20 sampai dengan 60
     @Test
     void primaNumberTest() {
-        List<Integer> actual = new ArrayList<>();
         for (int num = 20; num <= 60; num++) {
-            boolean isPrime = true;
-            if (num <= 1) {
-                isPrime = false;
-            } else {
-                for (int div = 2; div <= Math.sqrt(num); div++) {
-                    if (num % div == 0) {
-                        isPrime = false;
-                        break;
-                    }
+            int count = 0;
+            for (int index = 1; index <= num; index++) {
+                if (num % index == 0) {
+                    count++;
                 }
             }
 
-            if (isPrime) {
-                actual.add(num);
+            if (count == 2) {
+                System.out.println(num);
             }
         }
-
-        System.out.println("primaNumberTest : Actual :" + actual);
     }
 }
